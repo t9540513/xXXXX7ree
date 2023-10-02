@@ -1,0 +1,49 @@
+{subtemplate x7ree_v:x7ree_topnav}
+
+<!--{if $list_7ree}-->
+
+	<!--{loop $list_7ree $list_value}-->
+	<div class='vbox_m_7ree'>
+	<a href="{$page_url_7ree}{$list_value['id_7ree']}">
+	<!--{if $list_value['pic_7ree']}-->
+	<img src="{$folder_7ree}/{$list_value['pic_7ree']}" class="">
+	<!--{elseif $vars_7ree['background_mob_7ree']}-->
+	<img src="source/plugin/x7ree_v/template/image/{$vars_7ree['background_mob_7ree']}" class="">
+	<!--{else}-->
+	<div class="atcover_m_7ree">
+	
+	
+	<!--{if $list_value['cost_7ree']}-->
+		<!--{if $_G['uid']}-->
+			<!--{if $needpay_7ree}-->
+			<a href="plugin.php?id=x7ree_v:x7ree_v&code_7ree=8&id_7ree={$list_value['id_7ree']}"><i>{lang x7ree_v:htm_lang_goumaitip1_7ree}{$list_value['cost_7ree']}{$exttitle_7ree}{lang x7ree_v:htm_lang_goumaitip2_7ree}</i></a>
+			<!--{if $vars_7ree['vipurl_7ree']}--><br><a href="{$vars_7ree['vipurl_7ree']}"><i>{lang x7ree_v:htm_lang_goumaitip2vip_7ree}</i></a><!--{/if}-->
+			<!--{else}-->
+			{$list_value['showplay_7ree']}
+			<!--{/if}-->
+		<!--{else}-->
+			<a href="member.php?mod=logging&action=login"><i><!--{if $vars_7ree['costtip_7ree']}-->{$vars_7ree['costtip_7ree']}<!--{else}-->{lang x7ree_v:htm_lang_goumaitip3_7ree}<!--{/if}--></i></a>
+		<!--{/if}-->
+	<!--{else}-->
+	{$list_value['showplay_7ree']}
+	<!--{/if}-->
+	
+	
+	</div>
+	<!--{/if}-->
+	</a>
+	<span class='viewspan_7ree'>{$list_value['view_7ree']}</span>
+	<span class='zanspan_7ree'>{$list_value['zan_7ree']}</span>
+	<!--{if $vars_7ree['replyon_7ree']}-->
+	<span class='discussspan_7ree'>{$list_value['discuss_7ree']}</span>
+	<!--{/if}-->
+	<span class='fenleispan_7ree'>{$list_value['fenlei_7ree']}</span>
+	<p><a href="{$page_url_7ree}{$list_value['id_7ree']}">{$list_value['name_7ree']}</a></p>
+	</div>
+	<!--{/loop}-->
+	<div style="clear:both;"></div>
+<!--{else}-->
+	<div class="notice_7ree">{lang x7ree_v:htm_lang_zhanwuxiaoshipin_7ree}</div>
+<!--{/if}-->
+
+	<div class="pagebottom_7ree">{$multipage}</div>

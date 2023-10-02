@@ -1,0 +1,207 @@
+.bg{
+	background:#000000;
+	overflow:scroll;
+	overflow-y:hidden;
+}
+
+/* .black_page_7ree{
+	background:#000000;
+	overflow:scroll;
+	overflow-y:hidden;
+} */
+
+.box_m_7ree{
+	border:none;
+	background-color:#000000;
+}
+
+.playbox_m_7ree{
+	position:relative;
+}
+.topinfo_m_7ree{
+	margin-top:0;
+}
+
+.footnav_7ree{
+	display:none;
+}
+
+
+.footnav_black_7ree{
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+	background-color:#000000;
+	box-shadow: 0px 0px 5px rgb(0 0 0 / 80%);
+}
+.footnav_black_7ree h3{
+	padding-left:5px;
+	height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+.footnav_black_7ree table{
+	width:96%;
+	margin:0 auto;
+	z-index:999;
+}
+
+.popdiv_7ree{
+	position:fixed;
+	bottom:70px;
+	left:0;
+	width:100%;
+	background-color:#000000;
+	z-index:999;
+}
+
+.popdiv_7ree .pagenav_m_7ree li{
+	width:25%;
+}
+.popdiv_7ree .pagenav_m_7ree li .y{
+	margin-right:10px;
+}
+.popdiv_7ree .morev_m_7ree{
+	margin:0;
+}
+.popdiv_7ree .morev_m_7ree .talbe_m_7ree .t1_7ree{
+	padding-left:10px;
+}
+
+.popdiv_7ree .morev_m_7ree, .popdiv_7ree .discussbox_7ree{
+	height: 240px;
+	overflow-x: hidden;
+	overflow-y:auto;
+}
+
+.popdiv_7ree .zanwupinglun_7ree{
+	border:none;
+}
+.popdiv_7ree .discuzpost_7ree{
+	position:static;
+	
+}
+
+.popdiv_7ree .discussbox_7ree{
+	width:96%;
+	margin:0 auto;
+}
+.popdiv_7ree .discuzpost_7ree{
+	background-color:#000000;
+	border-top:none;
+}
+
+.popdiv_7ree .discuzpost_7ree textarea{
+	width:70%;
+	height:26px;
+	line-height:26px;
+}
+
+.popdiv_7ree .discuzpost_7ree .discussubmit_7ree{
+	margin:0;
+	height:28px;
+	background-color:#ACACAC;
+	color:#000000;
+	border:1px solid #000000;
+	letter-spacing: 3px;
+}
+
+.popdiv_7ree .discuzlist_7ree .dzavatd_7ree, .popdiv_7ree .discuzlist_7ree .dzmsgtd_7ree{
+	border-bottom: 1px solid #1a1a1a;
+}
+
+
+.footeraddiv_m_7ree{
+	border:1px dashed #3c3a3a;
+}
+
+.flip_7ree{
+	min-height:800px;
+	display:table;
+}
+
+.main_middle_7ree{
+	display:table-cell;
+	vertical-align:middle;
+}
+
+
+
+.zan3_7ree, .zan4_7ree{
+	z-index: 12;
+    width: 55px;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 26px;
+	margin-left:5px;
+}
+
+.zan3_7ree{
+	background: url(zan1_4b_7ree.png) no-repeat 0 center;
+    background-size: 16px 16px;
+}
+
+.zan4_7ree{
+	background: url(zan2_4b_7ree.png) no-repeat 0 center;
+    background-size: 16px 16px;
+}
+
+.home_icon_7ree{
+	display:inline-block;
+	height:26px;
+	width:26px;
+	background:url(v_gray_7ree.png) no-repeat center;
+	background-size:26px 26px;
+}
+
+.moreop_7ree{
+	z-index: 12;
+    width: 55px;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 26px;
+	margin-left:10px;
+	background: url(more_op_7ree.png) no-repeat 0 center;
+    background-size: 20px 20px;	
+}
+
+.footnav_black_7ree .chatavatar_7ree{
+	width:26px;
+	height:26px;
+	border-radius:13px;
+	border:1px solid #1A1A1A;
+}
+
+
+.morev_m_7ree .youkuplayer_7ree, .morev_m_7ree .a_7ree{
+	width:140px;
+	float: left;
+
+}
+ .morev_m_7ree .a_7ree video{
+ 	height:100%;
+ 	width:140px;
+ 	overflow:hidden;
+ }
+
+ .main_middle_7ree .back_btn_7ree{
+	position:fixed;
+	left:5px;
+	top:20px;
+	z-index:101;
+ }
+
+ .main_middle_7ree .back_btn_7ree img{
+	 width:20px;
+	 height:20px;
+ }
+
+ .discuzpost_7ree .message_7ree{
+	font-size: 12px;
+	background-color:#ACACAC;
+	border: 1px solid #000000;
+	color:#000000;
+	padding-left:5px;
+ }

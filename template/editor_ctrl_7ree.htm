@@ -1,0 +1,17 @@
+<!--{block return}-->
+<style>
+    #e_vid_menu > div > div:nth-child(2) > p:nth-child(3){
+        display:none;
+    }
+</style>
+
+    <script type="text/javascript" src="static/js/mobile/jquery.min.js?{VERHASH}"></script>
+    <script type="text/javascript">
+        var jq_7ree = jQuery.noConflict();
+        jq_7ree(document).ready(function () {
+            jq_7ree("#e_vid").click(function(){
+                jq_7ree("#e_vid_menu > div > div:nth-child(2) > p.xg2.pbn").html("<div>{lang x7ree_v:htm_lang_dizhitips_7ree}</div>");
+            });
+        });
+    </script>
+<!--{/block}-->

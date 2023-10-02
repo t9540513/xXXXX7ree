@@ -1,0 +1,557 @@
+.clear_7ree{
+	clear:both;
+	width:0px;
+	height:0px;
+	padding:0px;
+	margin:0px;
+}
+
+.searchbar_7ree{
+	float:right;
+	width:300px;
+}
+
+.searchtext_7ree{
+	float:right;
+	display:block;
+	width:80%;
+	height: 28px;
+	line-height: 28px;
+	border:none;
+	background-color:#EFEFEF;
+	text-align:center;
+	border-radius:10px;
+}
+
+.searchbtn_7ree{
+	float:right;
+	width:40px;
+	height: 30px;
+	line-height: 30px;
+	background-color:#FFFFFF;
+	background-image: url(search_7ree.png);
+	background-size:70%;
+	background-repeat:no-repeat;
+	background-position:left 5px center;
+}
+
+.searchbar_7ree .searchbtn_7ree{
+	border:none;
+}
+
+.box_7ree{
+	width:100%;
+	border:1px solid #FFFFFF;
+	background-color:#FFFFFF;
+	margin:10px auto;
+	position: relative;
+}
+
+.box_7ree ul{
+	list-style:none;
+	width:100%;
+	height:40px;
+	overflow:hidden;
+	border-bottom:1px solid #CFCFCF;
+
+}
+
+.box_7ree li{
+	float:left;
+	width:80px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+}
+
+
+.box_7ree a{
+	display:inline-block;
+}
+
+.box_7ree .topright_btn_7ree{
+	width:200px !important;
+	position:absolute;
+	top:5px;
+	right:10px;
+}
+
+.topnav_7ree a:hover, .listtable_7ree a:hover, .nownav_7ree{
+	display:block !important;
+	text-decoration:none;
+	color:#2366B2;
+	border-top:2px solid #2366B2;
+}
+
+.notice_7ree{
+	display:block;
+	margin:10px auto;
+	width:80%;
+	height:200px;
+	line-height:200px;
+	text-align:center;
+	border-bottom:1px solid #2366B2;
+	color:#2366B2;
+}
+
+.sharebtrn_7ree{
+	width:100px;
+	border:1px solid #2E80D1;
+	background-color:#3D7EB7;
+	color:#FFFFFF;
+	text-align:center;
+	border-radius:3px;
+}
+
+.vbox_7ree{
+    width: 212px;
+    height: 180px;
+    background: #FFFFFF;
+    border: 1px solid #eee;
+    margin: 10px 13px;
+    overflow:hidden;
+    float:left;
+    position:relative;
+    border-radius:6px;
+}
+
+div.vbox_7ree:hover{
+    box-shadow: 2px 2px 2px #CFCFCF;
+
+}
+
+.vbox_7ree img{
+	height: 140px;
+	width:212px;
+}
+
+.vbox_7ree p{
+	display:block;
+	position:absolute;
+	top:140px;
+	left:0;
+	z-index:1;
+	background-color:#FFFFFF;
+	height: 40px;
+	line-height: 40px;
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+}
+
+.vbox_7ree a:hover{
+	text-decoration:none;
+	color:#235994;
+}
+
+.cover_7ree{
+	display:block;
+	width:212px;
+	height:140px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:10;
+}
+
+
+.atcover_7ree video{
+	display:block;
+	width:212px;
+	height:140px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+	background-color:#000000;
+}
+
+.atcover_7ree video::-webkit-media-controls-enclosure {
+    /*禁用播放器控制栏的样式*/
+    display: none !important;
+}
+
+
+.vbox_7ree div:hover{
+	background:url(play_btn_7ree.png) no-repeat center;
+	opacity: 0.8;
+}
+
+.fenleispan_7ree{
+	position:absolute;
+	bottom:45px;
+	right:10px;
+	color:#FFFFFF;
+	z-index:12;
+}
+
+.viewspan_7ree{
+	position:absolute;
+	bottom:45px;
+	left:10px;
+	color:#FFFFFF;
+	padding-left:25px;
+	background:url(cammer_7ree.png) no-repeat 0 center;
+	z-index:12;
+}
+
+.discussspan_7ree{
+	position:absolute;
+	bottom:45px;
+	left:110px;
+	color:#FFFFFF;
+	padding-left:25px;
+	background:url(bubble_7ree.png) no-repeat 0 center;
+	z-index:12;
+}
+
+.zanspan_7ree{
+	position:absolute;
+	bottom:45px;
+	left:65px;
+	color:#FFFFFF;
+	padding-left:18px;
+	background:url(zan_icon_7ree.png) no-repeat 0 center;
+	z-index:12;
+}
+
+.lmain_7ree{
+	width:70%;
+	float:left;
+}
+
+.rside_7ree{
+	width:28%;
+	float:right;
+}
+
+.lmain_7ree h3{
+	font-size:22px;
+}
+
+.lmain_7ree p{
+	font-size:14px;
+}
+
+.rside_7ree h3{
+	font-weight:normal;
+	font-size:16px;
+	color:#235994;
+}
+
+.sideimg_7ree{
+	height: 140px;
+	width:212px;
+}
+
+.sidebox_7ree{
+    width: 212px;
+    height: 180px;
+    background: #FFFFFF;
+    border: 1px solid #eee;
+    margin: 10px auto;
+    overflow:hidden;
+    position:relative;
+}
+
+.sidebox_7ree div:hover{
+	background:url(play_btn_7ree.png) no-repeat center;
+	opacity: 0.8;
+}
+
+.sidebox_7ree a:hover{
+	text-decoration:none;
+	color:#235994;
+}
+
+
+.sidebox_7ree p{
+	display:block;
+	position:absolute;
+	top:140px;
+	left:0;
+	z-index:1;
+	background-color:#FFFFFF;
+	height: 40px;
+	line-height: 40px;
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+}
+
+.sidebox_7ree span{
+	position:absolute;
+	bottom:45px;
+	right:10px;
+	color:#FFFFFF;
+}
+
+.playbox_7ree{
+	width:100%;
+	height:400px;
+	/*
+	line-height:400px;
+	*/
+	background-color:#000000;
+	text-align:center;
+}
+
+.playbox_7ree a{
+	color:#FFFFFF;
+	margin-top:100px;
+}
+
+.chatavatar_7ree{
+	width:30px;
+	height:30px;
+	border-radius:15px;
+	vertical-align:middle;
+	padding-right:5px;
+}
+
+.lmain_7ree table{
+	width:100%;
+}
+
+.lmain_7ree td{
+	height:30xp;
+	line-height:30px;
+} 
+
+.lmain_7ree p{
+	margin:20px;
+}
+
+.discussbox_7ree{
+
+}
+
+.discussbox_7ree h3{
+	display:block;
+	width:100%;
+	height:30px;
+	font-size:16px;
+	border-bottom:1px solid #CFCFCF;
+	margin:10px auto;
+}
+.discussbox_7ree h3 b{
+	color:#067296;
+	display:block;
+	float:left;
+	width:100px;
+	height:30px;
+	text-align:center;
+	border-bottom:1px solid #067296;
+}
+
+.discussbox_7ree h3 i{
+	font-weight:normal;
+	font-size:12px;
+	float:right;
+}
+
+.discuzpost_7ree{
+
+}
+
+.discuzpost_7ree textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #CFCFCF;
+	border-radius:3px;
+}
+
+.discuzpost_7ree textarea:hover{
+	border:1px solid #067296;
+}
+
+.discussubmit_7ree{
+	width:100px;
+	height:30px;
+	color:#067296;
+	background:#FFFFFF;
+	border:1px solid #067296;
+	float:right;
+	margin:10px -5px;
+	border-radius:3px;
+	curosr: pointer;
+}
+
+.discussubmit_7ree:hover{
+	color:#FFFFFF;
+	background:#067296;
+}
+
+.zanwupinglun_7ree{
+	width:100%;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	border:1px dashed #CFCFCF;
+	margin:10px 0;
+}
+
+.discuzlist_7ree {
+	margin-bottom:20px;
+}
+
+.discussavatar_7ree{
+	width:36px;
+	height:36px;
+	border-radius:18px;
+}
+
+.discuzlist_7ree table{
+	width:100%;
+}
+
+.discuzlist_7ree .dzavatd_7ree{
+	width:10%;
+	vertical-align:top;
+	text-align:right;
+	border-bottom:1px solid #EFEFEF;
+	padding-top:10px;
+	padding-bottom:20px;
+}
+
+.discuzlist_7ree .dzmsgtd_7ree{
+	width:90%;
+	vertical-align:top;
+	border-bottom:1px solid #EFEFEF;
+}
+
+.discuzlist_7ree .dzmsgtd_7ree p, .discuzlist_7ree .dzmsgtd_7ree h4{
+	margin:0;
+	padding-left:10px;
+
+}
+
+.dzmsgtime_7ree{
+	height:12px;
+	line-height:12px;
+	color:#CDCDCD;
+}
+
+.upbtn_7ree{
+	display:block;
+	width:60%;
+	height:30px;
+	line-height:30px;
+	border:1px solid #ADADAD;
+	background-color: #CDCDCD;
+	color: #2E80D1;
+	text-align:center;
+	cursor:pointer;
+}
+
+.zan1_7ree{
+	background:url(zan1_7ree.png) no-repeat 0 center;
+}
+
+.zan2_7ree{
+	background:url(zan2_7ree.png) no-repeat 0 center;
+}
+
+.zan1_7ree, .zan2_7ree{
+	z-index:12;
+	width:55px;
+	font-size:14px;
+	background-size:16px 16px;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.quicknav_7ree{
+	table-layout:fixed;
+	width:100%;
+	margin:10px 0;
+}
+.quicknav_7ree td{
+	width:100px;
+	height:30px;
+	line-height:30px;
+	white-space: nowrap;   
+	text-overflow: ellipsis; 
+	overflow:hidden;
+}
+
+.editbtn_7ree a{
+	padding:0px 4px;
+	color:#FFFFFF;
+	background:#067296;
+	border:1px solid #067296;
+	border-radius:5px;
+}
+
+.editbtn_7ree a:hover{
+	padding:0px 4px;
+	color:#FFFFFF;
+	background:#067296;
+	border:1px solid #067296;
+	border-radius:5px;
+}
+
+.delbtn_7ree a{
+	padding:0px 4px;
+	color:#FFFFFF;
+	background:#721c02;
+	border:1px solid #721c02;
+	border-radius:5px;
+}
+
+.delbtn_7ree a:hover{
+	padding:0px 4px;
+	color:#FFFFFF;
+	background:#721c02;
+	border:1px solid #721c02;
+	border-radius:5px;
+}
+
+.pingluntable_7ree:hover{
+	background-color:#E8EFF5;
+
+}
+
+.listtable_7ree .pinglun_line1_7ree td{
+	border-top: 1px dotted #d5d9ec;
+}
+
+.listtable_7ree .pinglun_line2_7ree{
+	border-bottom: 2px solid #d5d9ec;
+}
+
+.listtable_7ree .pinglun_msg_7ree{
+	text-align: left;
+	padding-left: 20px;
+}
+
+
+.plinglun_td1_7ree{
+	width:60px;
+	text-align: left !important;
+	padding-left: 5px;
+}
+
+.plinglun_td2_7ree{
+	width:200px;
+}
+
+.plinglun_td3_7ree{
+	width:280px;
+	text-align: left !important;
+}
+
+.plinglun_td1_7ree label{
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+.url2icon_7ree{
+	display:block !important;
+	background: url(urlicon_7ree.gif) no-repeat;
+	padding-left:24px;
+	margin:10px 0 10px 0;
+	font-weight: 700;
+	font-size: 14px;
+}
